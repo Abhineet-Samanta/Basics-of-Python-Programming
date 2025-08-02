@@ -1,0 +1,11 @@
+l=[88,888]
+print(l)
+l.insert(0,8)
+n=[88,888]
+print(l)
+l.append(8888)
+print(l)
+l.append(n)
+print(l)
+l.extend(n)
+print(l)

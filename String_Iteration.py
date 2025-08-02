@@ -1,0 +1,10 @@
+w="WELCOME TO WSCUBE"
+t=len(w)
+print(t)
+for a in range(t):print(a)
+print()
+for a in range(t):print(w[a])
+print()
+for a in range(t-1,-1,-1):print(w[a])
+w[-1: :-1];print()
+for a in w:print(a)
